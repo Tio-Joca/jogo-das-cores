@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jogo de adivinhação - Cores</title>
+  </head>
+  <body>
+    <h1>Bem-vindo ao jogo de adivinhação de cores!</h1>
+    <p>
+      O jogo funciona da seguinte forma. Serão selecionadas 10 cores aleatórias,
+      o desafio é voce acertar a cor que eu estou pensando. Gostou da ideia? Que
+      tal jogarmos um pouco?
+    </p>
+    <p>Com base nas cores abaixo:</p>
+    <p id="lista-cores"></p>
+    <p>Em qual cor eu estou pensando?</p>
+    <input type="text" id="entrada" placeholder="Digite uma cor" />
+    <button onclick="jogoDasCores()">Adivinhar</button>
+    <p id="saida"></p>
+
+    <script src="./js/random_colors.js"></script>
+  </body>
+</html>
